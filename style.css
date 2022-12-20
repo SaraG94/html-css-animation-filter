@@ -4,22 +4,31 @@
     border: 1px solid red;
 }
 
-/***sol. es. 1**/
+/***solution es.1**/
 .ex-1-square:hover{
     background-color: red;
     transition: background-color 5s;
 }
-
+/******/
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/***solution es.2***/
+.ex-2-square:active{
+    width: 100%;
+    transition: width 5s;
+}
+/******/
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/***solution es.3***/
+/******/
 .ex-4-square {
     width: 100px;
     height: 100px;
