@@ -91,17 +91,41 @@
     border-radius: 30px;
     transform: scale(1.5);
 }
-/******
+/******/
 
 .ex-10-icon {
     font-size: 60px;
 }
 /***solution es.10***/
+.ex-10-icon{
+    animation: caricamento 1s linear infinite;
+}
+
+@keyframes caricamento{
+   0%{
+    transform: rotate(1turn);
+   }
+}
 /******/
 .ex-11-icon {
     font-size: 60px;
 }
 /***solution es.11***/
+.ex-11-icon:hover{
+    animation: caricamento 2s;
+}
+
+@keyframes caricamento{
+   0%{
+    transform: rotate(0);
+   }
+   75%{
+    transform: rotate(315deg);
+   }
+   100%{
+    transform: rotate(0);
+   }
+}
 /******/
 .ex-12-button, .ex-13-button {
     position: relative;
